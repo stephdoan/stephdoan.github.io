@@ -127,10 +127,6 @@ function plotPie() {
       }
     },
     series: [{
-      y: 429.99,
-      name: 'Handheld',
-      color: '#7851a9'
-    }, {
       name: 'Type',
       colorByPoint: true,
       data: [{
@@ -138,6 +134,10 @@ function plotPie() {
         name: 'Home Console',
         color: '#fe0016'
       }]
+    }, {
+      y: 429.99,
+      name: 'Handheld',
+      color: '#7851a9'
     }]
   });
 
