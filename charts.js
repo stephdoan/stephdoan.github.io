@@ -127,16 +127,16 @@ function plotPie() {
       }
     },
     series: [{
+      y: 429.99,
+      name: 'Handheld',
+      color: '#7851a9'
+    }, {
       name: 'Type',
       colorByPoint: true,
       data: [{
         y: 280.88,
         name: 'Home Console',
         color: '#fe0016'
-      }, {
-        y: 429.99,
-        name: 'Handheld',
-        color: '#7851a9'
       }]
     }]
   });
@@ -199,13 +199,6 @@ function plotHome() {
 
     series: [{
       data: [
-        ['Xbox', 24.00],
-        ['Xbox 360', 84.00]
-      ],
-      name: 'Microsoft',
-      color: '#0e7a0d',
-    }, {
-      data: [
         ['Wii U', 13.560000],
         ['GameCube', 21.750000],
         ['Nintendo 64', 32.930000],
@@ -226,7 +219,14 @@ function plotHome() {
       ],
       name: 'Playstation',
       color: '#003087'
-      }],
+    }, {
+      data: [
+        ['Xbox', 24.00],
+        ['Xbox 360', 84.00]
+      ],
+      name: 'Microsoft',
+      color: '#0e7a0d',
+    }],
     caption: {
       text: 'Microsoft has not publicly released Xbox One sales number since 2014 so there is not information to accurately portray on this chart.'
     }
