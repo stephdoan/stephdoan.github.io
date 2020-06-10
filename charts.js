@@ -48,8 +48,7 @@ function plotUnits() {
 
     tooltip: {
       formatter: function () {
-        console.log(this.x);
-        return "Production Run: " + (data[this.x].Run) + " Years"
+        return "Production Run: " + (data[this.x].Run) + " Years<br>" + this.y + " Units"
       }
     },
 
