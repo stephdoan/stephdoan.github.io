@@ -133,11 +133,11 @@ function plotPie() {
         y: 280.88,
         name: 'Home Console',
         color: '#fe0016'
+      }, {
+        y: 429.99,
+        name: 'Handheld',
+        color: '#7851a9'
       }]
-    }, {
-      y: 429.99,
-      name: 'Handheld',
-      color: '#7851a9'
     }]
   });
 
