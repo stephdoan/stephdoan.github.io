@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.text-primary {
+  color: #fe0016;
+}
+
+.text-secondary {
+  color: #7851a9;
+}
+
+.text-playstation {
+  color: #003087;
+}
+
+hr.page-break {
+  border: 3px solid #fe0016;
+  margin: 3px 0;
+}
+
+.primary-font {
+  font-family: 'Press Start 2P', cursive;
+}

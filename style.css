@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  line-height: 1.6;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo h1 img {
+  max-height: 50%;
+  max-width: 50%;
+  width: auto;
+  height: auto;
+  padding: 24px;
+}
+
+.timeline{
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline .row {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.timeline .row p {
+  max-width: 50%;
+  width: auto;
+  height: auto;
+}
+
+.nintendo-sales {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.chart,
+.sales-text {
+  width: 100%;
+  height: 100%;
+}
+
+.nintendo-sales-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.nintendo-sales-text p{
+ padding: 0 16px;
+}
+
+
+
+
+
+
